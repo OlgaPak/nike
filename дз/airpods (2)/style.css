@@ -1,0 +1,154 @@
+@import url(fonts.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:Montserrat-Bold ;
+    
+    }
+.container{
+    max-width: 1140px;
+    width: 100%;
+}
+.nav-content{
+   display: flex;
+   flex-direction: row;
+    background:#282828;
+    padding: 10px;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+}
+.li{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin:0 auto;
+}
+.link{
+    color: white;
+    font-size: 30px;
+}
+.header-image{
+    background: url(img/Header.png);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    font-size: 40px;
+    padding-top: 250px;
+}
+.header-text{
+    /* display: flex; */
+    align-content: center;
+    text-align: center;
+    /* margin-bottom: 250px; */
+    font-size: 100px;
+    color: white;
+    font-family:  ProstoOne-Regular;
+   
+}
+.header-link{
+    display: flex;
+text-align: center;
+align-content: center;
+justify-content: center;
+color: black;
+background: white;
+border: 2px solid white;
+font-family: Montserrat-Medium;
+border-radius: 5px;
+width: 300px;
+font-family:Montserrat-Medium;
+text-transform: uppercase;
+padding: 0 auto;
+margin-top:15px;
+}
+main{
+    background:#151515;
+}
+.section-1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.main-descr1{
+    display: flex;
+    align-items:flex-start;
+    /* font-size: 30px; */
+    font-family: Montserrat-Medium;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.main-descr2{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family:Montserrat-Medium 
+    
+}
+.section-2{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+    margin-bottom: 50px;
+
+}
+.section-3{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+.main-descr3{
+    color: white;
+    margin: 50px;
+}
+footer{
+    background:#282828 ;
+    height: 215px;
+    align-items: center;
+}
+.footer-nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0;
+}
+.footer-list{
+    display: flex;
+}
+.footer-link{
+    padding: 0 15px;
+    color: white;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.footeer-img{
+ margin-left:300px;
+ padding: 5px;
+}
+.main-list{
+    display: flex;
+    justify-content: space-between;
+}
+.burger{
+    
+    display: none;
+}

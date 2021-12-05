@@ -1,0 +1,43 @@
+@media(max-width:900px){
+    .list{
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background: radial-gradient(circle, rgba(3,2,23,1) 0%, rgba(2,3,1,0.8714326151301351) 46%);
+        gap: 30px;
+        transform: translateX(100%);
+        transition: 500ms;
+    }
+    .link{
+        font-size: 50px;
+    }
+    .burger{
+        display: block;
+    color: white;
+    font-size: 40px;
+    position: fixed;
+    right: 50%;
+    z-index: 100;
+}
+.burger:hover ~ .list{
+    transform: translateX(0);
+    }
+}
+@media(max-width:575px){
+    .section-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
